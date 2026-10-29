@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Please write your code here.
+    int i = 10;
+
+    while (i <= 26) {
+        if (i == 26) {
+            cout << i << endl;    
+            break;
+        }
+        cout << i << " ";
+        i += 2;
+    }
+    return 0;
+}
