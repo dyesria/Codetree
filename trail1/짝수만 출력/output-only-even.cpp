@@ -8,7 +8,7 @@ int main() {
 
     i = A;
     while (i <= B) {
-        if (i == B && i % 2 == 0) {
+        if (i == B) {
             cout << i << endl;
             break;
         }
